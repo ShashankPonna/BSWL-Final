@@ -2,6 +2,11 @@
 body {
   font-family: Arial, sans-serif;
 }
+.navbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}
 nav {
   background-color: #1b4332;
   position: sticky;
@@ -56,6 +61,7 @@ nav ul li ul li a {
   background-color: #1f3d2e;
   padding: 10px 15px;
   cursor: pointer;
+  /* position: sticky; */
 }
 #hamburger {
   font-size: 22px;
@@ -66,6 +72,7 @@ nav ul li ul li a {
 @media (max-width: 600px) {
   .hamburger {
     display: block;
+    /* position: sticky; */
   }
 
   nav {
