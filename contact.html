@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+        <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="nav-sec.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <div class="head">
+    <div class="logo">
+      <img src="images/logo.jpeg"></img>
+      <h2>Bhairavnath Sugar Works Limited</h2>
+    </div>
+    <button class="login"><a href="https://webmail-box5762.bluehost.com/">Login</a></button>
+  </div>
+    <!-- Hamburger Icon -->
+<div class="hamburger" onclick="toggleNavbar()">
+  <i class="fas fa-bars" id="hamburger"></i>
+</div>
+<!-- Navbar -->
+<nav id="mainNav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+
+    <li class="has-dropdown">
+      <a href="#">About Us</a>
+      <ul class="dropdown">
+        <li><a href="about.html#intro">Introduction</a></li>
+        <li><a href="about.html#director">Director Desk</a></li>
+        <li><a href="about.html#journey">Journey & Milestone</a></li>
+        <li><a href="about.html#board-of-directors">Board of Directors</a></li>
+        <li><a href="about.html#vision-mission">Vision And Mission</a></li>
+      </ul>
+    </li>
+
+    <li class="has-dropdown">
+      <a href="#">Products</a>
+      <ul class="dropdown">
+        <li><a href="products.html#Sugar">Sugar</a></li>
+        <li><a href="products.html#Co-Generation">Co-Generation</a></li>
+        <li><a href="products.html#Distillary">Distillery</a></li>
+        <li><a href="products.html#Fly-Ash">Fly Ash</a></li>
+        <li><a href="products.html#Molasses">Molasses</a></li>
+        <li><a href="products.html#Pressmud">Pressmud</a></li>
+        <li><a href="products.html#Bagasse">Bagasse</a></li>
+      </ul>
+    </li>
+
+    <li class="has-dropdown">
+      <a href="#">Investors Relation</a>
+      <ul class="dropdown">
+        <li><a href="invest.html#code-of-conduct">Code of Conduct & Ethics</a></li>
+        <li><a href="invest.html#Innovation">Innovation Opportunities</a></li>
+        <li><a href="invest.html#Sugar-Cane-Harvesting">Sugar Cane Harvesting</a></li>
+      </ul>
+    </li>
+
+    <li><a href="gallery.html">Gallery</a></li>
+
+    <li class="has-dropdown">
+      <a href="#">Contact Us</a>
+      <ul class="dropdown">
+        <li><a href="contact.html#location">Location</a></li>
+        <li><a href="contact.html#form">Contact Form</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+    <section class="location-section" id="location">
+  <h2>Locations</h2>
+
+  <div class="location-grid">
+    <!-- Registered Office -->
+    <div class="location-card">
+      <h3>Registered Office</h3>
+      <p><strong>Address:</strong> S. No. 84/2E/1/5 to 7,9,10, Sawant Corner,<br>Pune-Satara By Pass Highway Cwk, Katraj, Pune, Maharashtra, 411046</p>
+      <p><strong>Phone/Fax:</strong> 020-24317383/84/85</p>
+    </div>
+
+    <!-- Sonari Factory -->
+    <div class="location-card">
+      <h3>Sonari Factory</h3>
+      <p><strong>Address:</strong> S. No. 68, At Post. Sonari, Tal. Paranda, Dist. Osmanabad, Maharashtra</p>
+      <p><strong>Phone:</strong> 02477-234055</p>
+    </div>
+
+    <!-- Vihal Factory -->
+    <div class="location-card">
+      <h3>Vihal Factory</h3>
+      <p><strong>Address:</strong> S. No. 148, At Post Vihal, Tal. Karmala, Dist. Solapur, Maharashtra</p>
+      <p><strong>Phone:</strong> 02182-245400</p>
+    </div>
+
+    <!-- Lavangi Factory -->
+    <div class="location-card">
+      <h3>Lavangi Factory</h3>
+      <p><strong>Address:</strong> At Post Lavangi, Tal. Mangalvedha, Dist. Solapur, Maharashtra</p>
+      <p><strong>Phone:</strong> 02188-248266</p>
+    </div>
+
+    <!-- Washi Factory -->
+    <div class="location-card">
+      <h3>Washi Factory</h3>
+      <p><strong>Address:</strong> Kai Bhai Uddhavrao Patil Nagar, Washi (Tandulwadi), Tal. Washi, Dist. Osmanabad, Maharashtra</p>
+      <p><strong>Phone:</strong> 02478–276477</p>
+    </div>
+
+    <!-- Alegaon Factory -->
+    <div class="location-card">
+      <h3>Alegaon Factory</h3>
+      <p><strong>Address:</strong> Alegaon (BK), Post: Adhegaon, Tal: Madha, Dist: Osmanabad, Maharashtra</p>
+      <p><strong>Phone:</strong> 8552803803</p>
+    </div>
+  </div>
+</section>
+<section class="contact-section" id="form">
+  <h2>Contact Us</h2>
+  <form id="contactForm" onsubmit="return validateCaptcha()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Message" required></textarea>
+    </div>
+    <div class="form-group captcha-group">
+      <label for="captchaInput">Captcha: <span id="captchaQuestion">4 + 1 =</span></label>
+      <input type="text" id="captchaInput" placeholder="Enter answer" required>
+    </div>
+    <div id="captchaError" class="error-message"></div>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+    <button onclick="scrollToTop()" id="toTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <div class="copyright"> Designed and developed by Shashank. <br />
+    This is a non-commercial, educational remake of bswl.in. All content, images, and contact details belong to Bhairavnath Sugar Works Limited. This site is NOT affiliated with or endorsed by the company.</div>
+<script src="contact.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>

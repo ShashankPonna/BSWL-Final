@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="nav-sec.css">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+  <div class="head">
+    <div class="logo">
+      <img src="images/logo.jpeg"></img>
+      <h2>Bhairavnath Sugar Works Limited</h2>
+    </div>
+    <button class="login">Login</button>
+  </div>
+    <!-- Hamburger Icon -->
+<div class="hamburger" onclick="toggleNavbar()">
+  <i class="fas fa-bars" id="hamburger"></i>
+</div>
+<!-- Navbar -->
+<nav id="mainNav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+
+    <li class="has-dropdown">
+      <a href="#">About Us</a>
+      <ul class="dropdown">
+        <li><a href="about.html#intro">Introduction</a></li>
+        <li><a href="about.html#director">Director Desk</a></li>
+        <li><a href="about.html#journey">Journey & Milestone</a></li>
+        <li><a href="about.html#board-of-directors">Board of Directors</a></li>
+        <li><a href="about.html#vision-mission">Vision And Mission</a></li>
+      </ul>
+    </li>
+
+    <li class="has-dropdown">
+      <a href="#">Products</a>
+      <ul class="dropdown">
+        <li><a href="products.html#Sugar">Sugar</a></li>
+        <li><a href="products.html#Co-Generation">Co-Generation</a></li>
+        <li><a href="products.html#Distillary">Distillery</a></li>
+        <li><a href="products.html#Fly-Ash">Fly Ash</a></li>
+        <li><a href="products.html#Molasses">Molasses</a></li>
+        <li><a href="products.html#Pressmud">Pressmud</a></li>
+        <li><a href="products.html#Bagasse">Bagasse</a></li>
+      </ul>
+    </li>
+
+    <li class="has-dropdown">
+      <a href="#">Investors Relation</a>
+      <ul class="dropdown">
+        <li><a href="invest.html#code-of-conduct">Code of Conduct & Ethics</a></li>
+        <li><a href="invest.html#Innovation">Innovation Opportunities</a></li>
+        <li><a href="invest.html#Sugar-Cane-Harvesting">Sugar Cane Harvesting</a></li>
+      </ul>
+    </li>
+
+    <li><a href="gallery.html">Gallery</a></li>
+
+    <li class="has-dropdown">
+      <a href="#">Contact Us</a>
+      <ul class="dropdown">
+        <li><a href="contact.html#location">Location</a></li>
+        <li><a href="contact.html#form">Contact Form</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    <section id="Sugar" class="sections">
+        <h2 class="heads">Sugar</h2>
+        <div class="img-container">
+            <img src="images/slide-img.png" alt="sugar" class="img" />
+            <p>
+                <strong>Bhairavnath Sugar Works Limited</strong> operates with five factories/units located at:
+                <strong>Sonari (Unit I), Vihal (Unit II), Lavangi (Unit III), Washi (Unit IV), and Alegaon (Unit
+                    V)</strong>,
+                with a total crushing capacity of <strong>12,250 TCD (Tonnes Crushing Per Day)</strong>.
+            </p>
+
+            <p>
+                The Company began commercial production in 2008-09 at Sonari with a 2500 TCD Sugar plant, now upgraded
+                to 3500 TCD.
+                Additional 2500 TCD plants were established at Vihal (2011-12) and Lavangi (2014-15).
+            </p>
+
+            <p>
+                In 2012-13, a collaboration with Shivshakti Shetkari Sahakari Sakhar Karkhana Ltd., Washi was initiated
+                for a 1250 TCD plant, later expanded to 2500 TCD in 2013-14. A new 2500 TCD plant at Alegaon was
+                acquired in 2017-18.
+            </p>
+
+            <h3 class="sub-heads">Sugar Manufacturing Process</h3>
+            <p>Sugar production at our plants is carried out under stringent quality control using modern equipment and
+                technology:</p>
+            <ul style="line-height: 1.8;">
+                <li>Harvested cane is transported to the factory via carts, trucks, or tractors.</li>
+                <li>Cane is weighed, chopped by knives and shredded, then pressed in mills for juice extraction.</li>
+                <li>Extracted juice is treated with lime and sulphur dioxide, clarified, filtered, and evaporated.</li>
+                <li>Syrup is crystallized, separated from molasses, dried, bagged (50/100 Kg), and stored.</li>
+                <li>Molasses is further boiled and the final molasses is used for alcohol production.</li>
+                <li>Sugar is classified into sizes: large, medium, and small.</li>
+            </ul>
+
+            <h3 class="sub-heads">Quality of Sugar</h3>
+            <p>
+                At <strong>Bhairavnath Sugar Works Limited</strong>, we produce premium quality white crystal sugar in
+                the following grades:
+            </p>
+            <ul>
+                <li><strong>M 30</strong></li>
+                <li><strong>S 30</strong></li>
+                <li><strong>Super S</strong></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <section id="Co-Generation" class="sections">
+        <h2 class="heads">Generating Power For Self & The Society</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/Co-generation.jpeg" alt="sugar" class="img" />
+            <p>
+                The <strong>Government of India</strong> has actively promoted the co-generation of power from
+                <strong>bagasse</strong>, aiming to
+                improve returns for sugar factories and contribute to electricity generation. <strong>Bhairavnath
+                    Sugar
+                    Works Limited</strong> utilizes bagasse — a by-product of sugarcane — to generate power
+                primarily for <strong>captive
+                    consumption</strong>.
+            </p>
+            <p>
+                In this process, <strong>bagasse is burned in boilers</strong> to produce steam. The steam generated
+                through
+                <strong>bagasse-fired water-tube boilers</strong> is fed to turbines for power generation, and the
+                exhaust steam is
+                then used in the sugar manufacturing process. This dual use of steam — for power generation and
+                sugar processing — is known as <strong>co-generation</strong>.
+            </p>
+            <p>
+                Bhairavnath Sugar Works Limited places a strategic focus on co-generation, especially as the
+                nationwide demand for electricity continues to rise. Bagasse, being rich in <strong>calorific
+                    value</strong>, serves
+                as an excellent <strong>non-conventional renewable fuel</strong> source.
+            </p>
+            <p>
+                The company operates <strong>four power plants</strong> located at <strong>Sonari, Vihal,
+                    Lavangi</strong>, and <strong>Alegaon</strong> units, with a
+                total power generation capacity of <strong>53 MW</strong>. The co-generation plant at
+                <strong>Sonari</strong> was established in
+                <strong>2008-09</strong> with a capacity of <strong>14.5 MW</strong>. This was followed by
+                <strong>Vihal (12 MW)</strong> in <strong>2011-12</strong>, <strong>Lavangi (14.5 MW)</strong>
+                in <strong>2013-14</strong>, and <strong>Alegaon (12.5 MW)</strong>.
+            </p>
+            <p>
+                Out of the total power generated, <strong>11 MW</strong> is utilized internally, while the remaining
+                is sold to
+                <strong>Maharashtra State Electricity Distribution Company Limited (MSEDCL)</strong> under an
+                <strong>Energy Purchase
+                    Agreement (EPA)</strong>.
+            </p>
+            <p>
+                The co-generation plants operate during both the <strong>sugarcane crushing season</strong> and the
+                <strong>off-season</strong>,
+                utilizing saved bagasse to ensure continuous power generation.
+            </p>
+            <p>
+                For sugar factories like Bhairavnath Sugar Works Limited, co-generation offers multiple benefits:
+            </p>
+
+
+        </div>
+        <h3 class="sub-heading">Benefits</h3>
+        <ul class="benefits-list">
+            <li>Additional revenue stream for the company.</li>
+            <li>Significant cost savings by avoiding diesel usage for DG sets.</li>
+            <li>Promotes sustainable development and energy efficiency.</li>
+            <li>Increased employment opportunities.</li>
+            <li>Environmentally friendly operations.</li>
+        </ul>
+
+    </section>
+    <section id="Distillary">
+        <h2 class="heads">Distillery</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/Distillery.jpg" class="img">
+
+            <p>
+                Molasses, the by-product generated during the manufacture of sugar, is fermented and distilled to
+                manufacture various alcohol variants.
+            </p>
+
+            <p>
+                The policies for setting up Ethanol plants are becoming increasingly supportive both at the Centre
+                and
+                in Maharashtra. Recently, the Ministry of Petroleum and the Indian Sugar Mills Association (ISMA)
+                signed
+                a MoU to supply alcohol from sugar mills to petroleum companies. Earlier restrictions have been
+                lifted,
+                and a 5% ethanol blending is now mandatory for oil companies. Around 40% of alcohol produced is used
+                for
+                potable purposes, while the remaining 60% serves industrial and ethanol needs.
+            </p>
+
+            <p>
+                Utilizing molasses for ethanol production not only adds value but also ensures better price
+                stability
+                and realization for sugar mills. This enhances their viability and ultimately benefits cane growers.
+            </p>
+
+            <p>
+                <strong>Bhairavnath Sugar Works Limited</strong> has ambitious plans in this domain—not just as a
+                business opportunity, but also to promote the green energy that ethanol offers.
+            </p>
+
+            <p>
+                The company has established a 30 KLPD ethanol plant alongside a dedicated boiler and turbine to
+                provide
+                steam and power for the plant. The facility is located at Sonari, Taluka Paranda, District
+                Osmanabad,
+                Maharashtra.
+            </p>
+
+            <p>
+                This integrated project will use molasses as the main raw material. A separate boiler and turbine
+                will
+                meet the plant's energy requirements. With excellent irrigation in the command area, raw material
+                supply
+                is ensured. The 30 KLPD plant will employ advanced fermentation, multi-pressure distillation
+                systems,
+                bio-gas recovery, evaporation, and composting.
+            </p>
+
+            <h3 class="sub-heading">Project Strengths</h3>
+            <ul class="strengths">
+                <li>Experienced promoter and dedicated team</li>
+                <li>Strategic location in sugarcane-rich area</li>
+                <li>Committed and knowledgeable farmers</li>
+                <li>Reliable cane availability</li>
+                <li>High demand-supply gap for alcohol in India</li>
+                <li>Supportive regulatory environment</li>
+                <li>Steady raw material availability</li>
+                <li>Strong socio-economic and environmental benefits</li>
+                <li>Use of modern, high-efficiency technology</li>
+                <li>Robust techno-commercial feasibility</li>
+            </ul>
+
+        </div>
+    </section>
+    <section id="Fly-Ash" class="sections">
+        <h2 class="heads">Fly Ash</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/product_fly_ash.jpg" alt="sugar" class="img" />
+            <p>
+                Fly Ash is the residual output from the boiler furnace after bagasse has completely burnt out.
+            </p>
+            <p>
+                This bagasse ash is generally spread over farms or dumped in ash ponds, which causes environmental
+                problems.
+                Research has also shown that workplace exposure to dusts from the processing of bagasse can lead to
+                chronic
+                lung conditions such as pulmonary fibrosis, more specifically known as bagassosis. Consequently, there
+                is a
+                great need for its reuse. Additionally, bagasse ash is high in silica, so it can be used as a substitute
+                for
+                construction materials.
+            </p>
+            <p>
+                Furthermore, this fly ash is used as a substitute for firewood. Being rich in potassium, it is also
+                valued
+                by local farmers for cultivation.
+            </p>
+        </div>
+    </section>
+    <section id="Molasses" class="sections">
+        <h2 class="heads">Molasses</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/product_molasses.jpg" alt="sugar" class="img" />
+            <p>
+                <strong>Molasses</strong>, from the Latin word <em>melaceres</em>, meaning "honey-like", is a thick dark
+                syrup and an important by-product of the sugar industry.
+            </p>
+            <p>
+                During the sugar-making process, juice extracted from sugarcane or sugar beets is boiled down until the
+                sugars crystallize and precipitate out. The only by-product obtained during repeated crystallization is
+                this leftover syrup — molasses.
+            </p>
+            <p>
+                Molasses is mainly used for the manufacture of alcohol, yeast and cattle feed. Alcohol in turn is used
+                to produce ethanol, rectified spirit, potable liquor and downstream value added chemicals such as
+                acetone, acetic acid, butanol, acetic an-hydride, etc.
+            </p>
+        </div>
+    </section>
+    <section id="Pressmud" class="sections">
+        <h2 class="heads">Pressmud</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/product_pressmud.jpg" alt="Pressmud" class="img" />
+            <p>
+                <strong>Press mud</strong> is commonly known as filter cake / press cake and is used as manure by
+                the farmers. Press mud is the residue of the filtration of sugarcane juice. The clarification
+                process separates the juice into a clear juice that rises to the top and goes to manufacture, and a
+                mud that collects at the bottom.
+            </p>
+            <p>
+                It is combustible and also used in brick kilns for brick making. When mixed with the spent wash
+                generated by the distilleries, the resultant product is enriched organic manure, which has the
+                capability to improve yields in farms. The use of filter cake as a soil conditioner is common among
+                sugar planters.
+
+
+
+            </p>
+
+        </div>
+
+    </section>
+    <section id="Bagasse" class="sections">
+        <h2 class="heads">Bagasse</h2>
+        <div class="img-container">
+            <img src="https://bswl.in/css/images/baggasse.jpg" alt="Bagasse" class="img" />
+            <p>
+                <strong>Bagasse</strong>is the residue obtained from crushing cane in the sugar factory. It contains 50%
+                moisture & 2% sugar & the balance is fibre. Historically, bagasse waste has been burned in the fields,
+                and thereby creating pollution. For each 10 tonnes of sugarcane crushed, a sugar factory produces nearly
+                3 tonnes of wet bagasse. By making use of bagasse sugar industry have been successful in reducing
+                dependence on State Electric Boards, for their power supply as it can procure up to <strong>90-95% of
+                    its total power</strong> requirement through captive generation from steam turbines.
+            </p>
+            <p>
+                Whereas bagasse is primarily used to meet the captive requirement of fuel, a substantial quantity of it
+                can be saved and diverted for use in other industries. Inside a sugar plant, bagasse is generally used
+                as a combustible in furnaces to produce steam, which in turn is used to generate power. The composition
+                and quality of bagasse varies based on the variety of sugarcane, maturity of cane, method of harvesting
+                and the efficiency of the sugar factory.
+            </p>
+            <p>
+                Bagasse is also used as a raw material by the paper industry. The manufacture of paper from Bagasse is
+                an environment-friendly alternative over the conventional route of extracting pulp from trees. By
+                adopting bagasse products, you indirectly help in reducing the pollution and energy consumption.
+            </p>
+
+        </div>
+
+    </section>
+    <button onclick="scrollToTop()" id="toTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <div class="copyright"> Designed and developed by Shashank. <br />
+    This is a non-commercial, educational remake of bswl.in. All content, images, and contact details belong to Bhairavnath Sugar Works Limited. This site is NOT affiliated with or endorsed by the company.</div>
+    <script src="nav.js"></script>
+    <script src="product.js"></script>
+</body>
+
+</html>
