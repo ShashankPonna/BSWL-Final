@@ -52,7 +52,9 @@ nav ul li:hover > ul {
 nav ul li ul li a {
   padding: 8px 10px;
   font-size: 16px;
-  border-top: 1px solid #2e9853;
+  border-style: solid;
+  border-color: #2e9853;
+  border-width: 2px 4px;
 }
 
 /* Hamburger button */
@@ -103,6 +105,7 @@ nav ul li ul li a {
   nav ul li ul li a {
     padding: 10px 20px;
     border: none;
+    border: 2px solid #2e9853;
   }
 
   nav ul li a {
